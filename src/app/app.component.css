@@ -1,0 +1,41 @@
+.navbar {
+    margin: 0;
+}
+
+.navbar.navbar-default {
+    padding:0;
+    border-radius: 0;
+} 
+
+ul.nav.navbar-nav {
+    margin-right:25%
+}
+
+ul.nav.navbar-nav li > a {
+    transition: all ease-in-out .1s;
+    padding-right: 5px;
+}
+
+ul.nav.navbar-nav li:hover > a {
+    font-size: 18px;
+}
+
+ul.dropdown-menu {
+    /* background-color: #DAA520; */
+    background-color: rgb(28, 59, 71);
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color:#fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li:hover>a {
+    color:#222;
+    font-size: 20px;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}

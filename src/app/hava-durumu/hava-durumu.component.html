@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="resultContainer">
+        <div class="weatherResults">
+            <h3>{{cityParams}} Hava Durumu</h3>
+            <ul>
+                <li>Açıklama : {{weatherOfCity?.aciklama}}</li>
+                <li>Sıcaklık (Değerler <b>Kelvin</b> ölçü birimine göre verilmiştir.)
+                    <ul>
+                        <li>En Düşük: {{weatherOfCity?.enDusuk}}</li>
+                        <li>En Yüksek: {{weatherOfCity?.enYuksek}} </li>
+                    </ul>
+                </li>
+                <li>Basınç: {{weatherOfCity?.basinc}} hPa</li>
+                <li>Nem: %{{weatherOfCity?.nem}}</li>
+                <li>Rüzgar: {{weatherOfCity?.ruzgar}} m/s</li>
+                <li>Ülke Kodu: {{weatherOfCity?.ulke}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

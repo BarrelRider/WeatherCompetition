@@ -1,0 +1,20 @@
+.resultContainer {
+    background-color: gainsboro;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 0 1px 25px 2px
+}
+
+.weatherResults {
+    background-color: #fff;
+    outline: 0;
+    font-size: 18px;
+    padding: 5%;
+    border-radius: inherit
+}
+
+.weatherResults h3 {
+    text-decoration: underline;
+    text-underline-position: under;
+}

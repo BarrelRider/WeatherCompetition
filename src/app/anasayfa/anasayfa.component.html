@@ -1,0 +1,9 @@
+<div class="outer-content">
+  <div class="cntSearch">
+    <ng2-completer [placeholder]="'Şehir seciniz...'" [(ngModel)]="searchStr" [datasource]="searchData" [minSearchLength]="0">
+    </ng2-completer>
+    <button type="submit" class="btn btn-default btn-x" [routerLink]="goCity(searchStr)">
+    <div class="fa fa-search fa-2x"></div>
+    </button>
+  </div>
+</div>

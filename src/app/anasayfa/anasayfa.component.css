@@ -1,0 +1,46 @@
+.outer-content {
+    background-color: gainsboro;
+    display: inline-block;
+    width: 50%;
+    margin: 5% 0 0 25%;
+    border-radius: 6px;
+    box-shadow: 0 1px 25px 2px;
+    padding: 10px;
+}
+
+.cntSearch{
+    position: relative;
+    line-height: 40px;
+    font-size: 21px;
+}
+
+.btn-x {
+    width: 75px;
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    height: 44px;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(28,59,71);
+}
+
+.btn-x:focus {
+    outline: 0;
+}
+
+:host >>> .completer-input{
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    border-radius: 9px;
+    border: 1px solid #ecf0f1;
+}
+
+:host >>> .completer-input:focus{
+    outline: 0;
+
+}
+
+
+
