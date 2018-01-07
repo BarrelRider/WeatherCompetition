@@ -21,7 +21,7 @@ export class AnasayfaComponent {
     "Istanbul","Izmir","Iğdır",
     "Kocaeli","Karaman","Kahramanmaraş",
     "Manisa","Muğla","Malatya",
-    "Podgorica","Budva","Geneve",
+    "Podgorica","Budva","Genève",
     "New York","Detroit","California",
     "London","Amsterdam","Berlin"
   ];
@@ -29,10 +29,9 @@ export class AnasayfaComponent {
   constructor(private router: Router) { }
 
   goCity(cityStr){
-    if(cityStr != undefined) {
+    if(cityStr) {
       return ['/hava-durumu',cityStr];
     }
-
   }
 
 }
